@@ -101,7 +101,7 @@ header {
 }
 
 .columns {
-    /* position: relative; */
+    position: relative;
 }
 
 .container-hero > h1 {
@@ -123,6 +123,7 @@ header {
 
 .hero-col img {
     width: 100%;
+    height: auto;
 }
 
 .hero-col > p {
