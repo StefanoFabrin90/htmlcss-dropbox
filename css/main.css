@@ -35,8 +35,16 @@ header {
 }
 
 .container .col {
-    float: left;
     width: 50%;
+}
+
+.col-left {
+    float: left;
+}
+
+.col-right {
+    float: right;
+    text-align: end;
 }
 
 .brand {
@@ -61,7 +69,7 @@ header {
 .main-menu li a {
     display: inline-block;
     line-height: 70px;
-    padding: 0 15px;
+    padding: 0 20px;
     color: black;
     border-bottom: 2px solid transparent;
     text-decoration: none;
@@ -69,4 +77,11 @@ header {
 
 .main-menu li a:hover {
     border-bottom-color: currentColor
+}
+
+.btn {
+    padding: 5px 20px;
+    color: white;
+    background-color:#0061ff;
+    border: currentColor;
 }
