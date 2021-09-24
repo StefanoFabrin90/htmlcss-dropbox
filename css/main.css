@@ -32,7 +32,7 @@ header {
 }
 
 .debug-box {
-    /* height: 70px; */
+    height: 70px;
     background: rgba(255,255,255 .1);
     border: 1px solid black
 }
@@ -97,7 +97,11 @@ header {
 }
 
 .container-hero {
-    /* padding: 100px 100px; */
+    max-height: 100%;
+}
+
+.columns {
+    /* position: relative; */
 }
 
 .container-hero > h1 {
@@ -105,10 +109,6 @@ header {
     line-height: 100px;
     margin-bottom: 50px;
     padding: 50px 50px;
-}
-
-.columns {
-    position: relative;
 }
 
 .hero-col {
@@ -144,6 +144,12 @@ i {
     font-size: 50px;
 }
 
+/* SECTION-1 */
+
+.section-1 {
+    background-color: lightcoral;
+    max-width: 100vw;
+}
 
 
 
