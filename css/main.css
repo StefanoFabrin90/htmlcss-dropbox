@@ -6,3 +6,67 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* UTILITIES */
+header {
+    width: 100vw;
+}
+
+.container {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.clearifx::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.debug-box {
+    height: 70px;
+    background: rgba(255,255,255 .1);
+    border: 1px solid black
+}
+
+.container .col {
+    float: left;
+    width: 50%;
+}
+
+.brand {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.brand img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.main-menu {
+    display: inline-block;
+    list-style: none;
+}
+
+.main-menu > li {
+    display: inline-block;
+}
+
+.main-menu li a {
+    display: inline-block;
+    line-height: 70px;
+    padding: 0 15px;
+    color: black;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+}
+
+.main-menu li a:hover {
+    border-bottom-color: currentColor
+}
