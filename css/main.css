@@ -7,13 +7,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* UTILITIES */
+/* HEADER */
 header {
     width: 100vw;
+    height: 70px;
 }
 
 .container {
     width: 100vw;
+    height: 70px;
     margin: 0 auto;
 }
 
@@ -84,4 +86,22 @@ header {
     color: white;
     background-color:#0061ff;
     border: currentColor;
+}
+
+/* MAIN */
+
+.hero {
+    width: 100vw;
+    height: 750px;
+    background-color: lightblue;
+}
+
+.title {
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+}
+
+.title > h1 {
+    font-size: 50px;
 }
