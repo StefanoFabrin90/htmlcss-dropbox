@@ -94,6 +94,7 @@ header {
     width: 100vw;
     height: 750px;
     background-color: lightblue;
+    padding: 50px 50px;
 }
 
 .title {
@@ -104,4 +105,22 @@ header {
 
 .title > h1 {
     font-size: 50px;
+}
+
+.hero .col {
+    float: left;
+    width: 30%;
+}
+
+.col-right {
+    width: 70%;
+}
+
+.col > p {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.col-right img {
+    width: 100%;
 }
