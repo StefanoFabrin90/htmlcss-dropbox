@@ -92,35 +92,20 @@ header {
 
 .hero {
     width: 100vw;
-    height: 750px;
     background-color: lightblue;
-    padding: 50px 50px;
 }
 
-.title {
-    width: 100vw;
-    height: 100px;
-    text-align: center;
+.container-hero {
+    padding: 100px 100px;
 }
 
-.title > h1 {
-    font-size: 50px;
-}
-
-.hero .col {
+.debug-box {
     float: left;
-    width: 30%;
+    width: 50%;
 }
 
-.col-right {
-    width: 70%;
-}
-
-.col > p {
-    line-height: 30px;
-    font-size: 15px;
-}
-
-.col-right img {
+.debug-box img {
     width: 100%;
 }
+
+
