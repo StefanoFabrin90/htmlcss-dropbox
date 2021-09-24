@@ -97,23 +97,54 @@ header {
 }
 
 .container-hero {
-    padding: 100px 100px;
+    /* padding: 100px 100px; */
 }
 
 .container-hero > h1 {
     font-size: 80px;
+    line-height: 100px;
+    margin-bottom: 50px;
+    padding: 50px 50px;
+}
+
+.columns {
+    position: relative;
 }
 
 .hero-col {
     float: left;
-    width: 30%;
+    width: 40%;
+    padding: 0 50px;
+}
+
+.columns .col-right {
+    width: 60%;
 }
 
 .hero-col img {
     width: 100%;
 }
 
-.columns .col-right {
-    width: 70%;
+.hero-col  p {
+    line-height: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
 }
+
+.btn-hero {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.text-small {
+    font-size: 10px;
+}
+
+i {
+    font-size: 50px;
+}
+
+
+
+
 
