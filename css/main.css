@@ -32,7 +32,7 @@ header {
 }
 
 .debug-box {
-    /* height: 70px; */
+    height: 70px; 
     background: rgba(255,255,255 .1);
     border: 1px solid black
 }
@@ -207,7 +207,7 @@ i {
 }
 
 .content-title h3 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .content-title .contract {
@@ -249,7 +249,7 @@ i {
 
 .box-section-2 h4 {
     display: inline-block;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .box-section-2 h5 {
@@ -278,38 +278,42 @@ i {
     padding: 100px 100px;
 }
 
-.box-section-3, .box-section-3-right {
+.section-col-3 {
     float: left;
     width: 50%;
-    max-height: 100%;
-    
+    padding: 0 50px;
 }
 
-.box-section-3 img {
+.columns .col-3 {
+    width: 50%;
+}
+
+.section-col-3 img {
     width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
-.box-section-3-right > h4 {
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-
-.box-section-3-right > p {
-    font-size: 20px;
-    margin-bottom: 30px;
+.section-col-3 > p {
     line-height: 30px;
+    margin-bottom: 20px;
 }
 
-.box-section-3-right {
-    padding: 100px 100px;
+.section-col-3 > h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 80px;
 }
 
-.box-section-3-right > button {
+.btn-3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: black;
     background-color: white;
     border: 1px solid black;
-    color: black;
 }
+
+
 
 
 
