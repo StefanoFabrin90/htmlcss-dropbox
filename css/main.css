@@ -7,6 +7,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* HEADER */
 
 header {
@@ -148,6 +152,7 @@ header {
 i {
     font-size: 40px;
     cursor: pointer;
+    color: black;
     /* todo: che sposti la pagina */
 }
 
@@ -220,6 +225,18 @@ i {
 }
 .list-1 {
     line-height: 60px;
+    position: relative;
+}
+
+.menu-section-1::before { 
+    content: '';
+    width: 120px;
+    height: 2px;
+    background-color: #dcdcde;
+    position: absolute;
+    top: 105%;
+    left: 0;
+
 }
 
 .list-2 {
@@ -571,14 +588,21 @@ i {
     position: relative;
 }
 
+.menu {
+    position: relative;
+}
+
 .menu li i {
     font-size: 25px;
-    vertical-align: middle;
     cursor: pointer;
-    text-align: end;
+    position: absolute;
+    top: 40%;
+    left: 95%;
 }
 
 /* FOOTER */
+
+/* SECTION-9 */
 
 .section-9 {
     max-width: 100vw;
@@ -631,13 +655,14 @@ i {
 
 .national::before {
     content: '';
-    width: 80px;
+    width: 100px;
     height: 2px;
-    background-color: #666666;
+    background-color: white;
     position: absolute;
-    top: -20px;
+    top: -50px;
     left: 0;
 }
+
 
 
 
