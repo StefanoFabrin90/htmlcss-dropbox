@@ -616,6 +616,10 @@ i {
     left: 95%;
 }
 
+.menu li {
+    font-weight: bold;
+}
+
 /* FOOTER */
 
 /* SECTION-9 */
@@ -647,9 +651,21 @@ i {
     font-size: 15px;
 }
 
-.list-footer :first-child {
-    font-size: 20px;
-    line-height: 85px;
+.list-footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.list-footer a:hover {
+    border-bottom: 1px solid white;
+}
+
+.list-footer  li:first-child {
+    font-size: 25px;
+    line-height: 50px;
 }
 
 .national {
@@ -667,6 +683,7 @@ i {
 
 .national i:last-child{
     font-size: 12px;
+    cursor: pointer;
 }
 
 .national::before {
@@ -679,9 +696,9 @@ i {
     left: 0;
 } 
 
-.menu li {
-    font-weight: bold;
-}
+
+
+
 
 
 
