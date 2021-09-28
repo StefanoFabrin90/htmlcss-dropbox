@@ -427,6 +427,9 @@ i {
     object-fit: cover;
 }
 
+.box-left-top img:hover{
+    filter:drop-shadow(10px 10px 20px lightgrey);
+}
 .top-left {
     position: relative;
     top: 40%;
@@ -448,6 +451,10 @@ i {
     object-fit: cover;
 }
 
+.box-right-top img:hover {
+    filter:drop-shadow(10px 10px 20px lightgrey);
+}
+
 .top-right {
     position: relative;
     top: 25%;
@@ -464,15 +471,19 @@ i {
     left: 0;
 }
 
-.box-right-top img {
+.box-left-bottom img {
     width: 50%;
     object-fit: cover;
+}
+
+.box-left-bottom img:hover {
+    filter:drop-shadow(10px 10px 20px lightgrey);
 }
 
 .left-bottom{
     position: relative;
     top: 40%;
-    left: 15%;
+    left: 25%;
     filter: invert(1);
 }
 
@@ -488,6 +499,10 @@ i {
 .box-right-bottom img {
     width: 50%;
     object-fit: cover;
+}
+
+.box-right-bottom img:hover {
+    filter:drop-shadow(10px 10px 20px lightgrey);
 }
 
 .right-bottom {
