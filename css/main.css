@@ -677,6 +677,10 @@ i {
     position: absolute;
     top: -50px;
     left: 0;
+} 
+
+.menu li {
+    font-weight: bold;
 }
 
 
